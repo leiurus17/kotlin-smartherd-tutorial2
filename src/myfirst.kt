@@ -10,4 +10,8 @@ fun main(args: Array<String>) {
     var isAlive2 = true // It becomes Boolean automatically
 
     // Data Types in Kotlin: All are Objects
+
+    // var vs val
+    // var is Mutable. Changeable.
+    // val is Immutable. Unchangeable.
 }
