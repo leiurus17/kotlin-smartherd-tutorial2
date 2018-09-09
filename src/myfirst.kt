@@ -1,17 +1,22 @@
 fun main(args: Array<String>) {
 
+    var name: String = "Henry"
+    println(name)
+    name = "Kevin"
+    println(name)
+
+    // Other data types in Kotlin
+    // Everything in Kotlin is object
+
     var age: Int = 10
-    var age2 = 10 // It becomes Integer automatically
-
-    var name: String = "Hands"
-    var name2 = "Hands" // It becomes String automatically
-
     var isAlive: Boolean = true
-    var isAlive2 = true // It becomes Boolean automatically
+    var marks: Float = 97.4F
+    var percentage: Double = 90.78
+    var gender: Char = 'M'
 
-    // Data Types in Kotlin: All are Objects
-
-    // var vs val
-    // var is Mutable. Changeable.
-    // val is Immutable. Unchangeable.
+    println(age)
+    println(isAlive)
+    println(marks)
+    println(percentage)
+    println(gender)
 }
